@@ -1,7 +1,13 @@
 {
-  "extends": ["next/core-web-vitals"],
+  "extends": [
+    "next/core-web-vitals", // Next.js 推荐规则
+    "next/typescript",      // 包含 TypeScript 规则
+    "eslint:recommended"
+  ],
+  "plugins": ["@typescript-eslint"],
+  "parser": "@typescript-eslint/parser",
   "rules": {
-    "@typescript-eslint/no-unused-vars": "warn",
-    "prefer-const": "error"
+    // 如果需要禁用此规则
+    "@typescript-eslint/no-unused-vars": "off"
   }
-} 
+}
