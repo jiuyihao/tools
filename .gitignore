@@ -1,0 +1,29 @@
+# Node
+node_modules/
+
+# Next.js
+.next/
+
+# Vite
+/dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Mac
+.DS_Store
+
+# Env
+.env*
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Others
+*.local
+*.log 
